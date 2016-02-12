@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:n="http://nevow.com/ns/nevow/0.1">
+        <head>
+                <meta charset="UTF-8" />
+                <title>Test Page</title>
+                <n:invisible n:render="liveglue"></n:invisible>
+                <style type='text/css' id='style'></style>
+        </head>
+        <body>
+                <div n:render="TestElement">AdminElement goes here</div>
+                <div n:render="liveElement"
+                    id="testelement"
+                    n:pattern="TestPattern"
+                    class="TestPage"
+                    xmlns:athena="http://divmod.org/ns/athena/0.7" style="height:10000px">
+                    <svg style="width:100%; height:100%" id="paper"/>
+                </div>
+        </body>
+</html>
